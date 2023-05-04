@@ -1,0 +1,148 @@
+.artistPage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 97%;
+  color: white;
+  margin: 10px auto;
+  border-radius: 20px;
+  background-image: linear-gradient(to bottom right, black, rgb(26, 51, 51), rgb(26, 67, 80));
+
+  & > div {
+    width: 35%;
+    height: 80vh;
+    padding: 20px;
+  }
+
+  & .profile_info {
+    display: flex;
+    align-items: center;
+
+    &-img {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      & img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+      }
+    }
+
+    &-title {
+      margin-left: 15px;
+
+      & h3 {
+        font-size: 26px;
+        margin: 0;
+      }
+
+      & p {
+        margin: 0;
+        font-weight: 600;
+      }
+    }
+  }
+
+  & .category_container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 10px;
+
+    &-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      
+      & #music_type {
+        border: 1px solid black;
+        width: 150px;
+        height: 40px;
+        text-align: center;
+        border-radius: 20px;
+      }
+    }
+  }
+}
+
+.addsong_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+
+  & h4 {
+    font-size: 24px;
+  }
+
+  & form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    gap: 15px;
+    margin-top: -15px;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 1px -1px 5px 2px rgb(26, 67, 80);
+
+    & input {
+      width: 300px;
+      height: 34px;
+      border: none;
+      background: transparent;
+      border-bottom: 2px solid skyblue;
+      color: white;
+    }
+
+    & button {
+      width: 200px;
+      height: 40px;
+      background: transparent;
+      color: skyblue;
+      border: 1px solid skyblue;
+    }
+
+    & div {
+      display: flex;
+      gap: 10px;
+    }
+  }
+ 
+  & .upload {
+    visibility: hidden;
+
+    &_label {
+      width: 150px;
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 20px;
+    }
+
+  }
+
+  & .song {
+      border: 1px solid skyblue;
+      cursor: pointer;
+    }
+      
+  & .cover {
+      border: 1px solid aqua;
+      cursor: pointer;  
+    }
+}
+
+
+::placeholder {
+  color: white;
+}
+
+.songs_container {
+  overflow: hidden;
+}

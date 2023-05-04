@@ -1,0 +1,169 @@
+.signup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, skyblue, #5f5f5f);
+  height: 89vh;
+  color: white;
+
+  &_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 80vh;
+    
+      & form {
+      display: flex;
+      gap: 20px;
+      padding: 50px;
+      flex-direction: column;
+      box-shadow: 1px 1px 2px 1px rgba(190, 190, 190, 0.1);
+      border-radius: 20px;
+      background-color: rgb(255, 255, 255, 0.1);
+      backdrop-filter: blur(50px);
+     
+      & > h1 {
+        font-size: 48px;
+        margin: 0;
+      }
+
+      & > button {
+        height: 40px;
+        width: 260px;
+        background-color: skyblue;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: .5s;
+      
+        &:hover {
+          background-color: white;
+          color: skyblue;
+        }
+      }
+
+      & > input {
+        height: 40px;
+        width: 250px;
+        border: none;
+        color: white;
+        background: transparent;
+        border-bottom: 1px solid whitesmoke;
+        cursor: pointer;
+      
+        &::placeholder {
+          color: white;
+        }
+      } 
+    }
+  }
+}
+
+
+#category {
+  height: 40px;
+  width: 260px;
+  border: none;
+  color: black;
+  background: transparent;
+  border-bottom: 1px solid whitesmoke;
+  cursor: pointer;
+}
+
+.signUp-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+
+  & h2 {
+    color: slategrey;
+    font-size: 32px;
+    text-shadow: 1px 1px 1px black;
+  }
+
+  
+  & button {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: slategrey;
+    color: white;
+    box-shadow: 1px 1px 2px 1px skyblue;
+    transition: .5s;
+    cursor: pointer;
+    
+    &:hover {
+      background-color: skyblue;
+    }
+  }
+}
+
+
+.login {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, skyblue, #5f5f5f);
+  height: 89vh;
+  color: white;
+  
+  &_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    
+      & form {
+      display: flex;
+      gap: 20px;
+      padding: 50px;
+      flex-direction: column;
+      box-shadow: 1px 1px 2px 1px rgba(190, 190, 190, 0.1);
+      border-radius: 20px;
+      background-color: rgb(255, 255, 255, 0.1);
+      backdrop-filter: blur(50px);
+     
+      & > h1 {
+        font-size: 48px;
+        margin: 0;
+      }
+
+      & > button {
+        height: 40px;
+        width: 260px;
+        background-color: skyblue;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: .5s;
+      
+        &:hover {
+          background-color: white;
+          color: skyblue;
+        }
+      }
+
+      & > input {
+        height: 40px;
+        width: 250px;
+        border: none;
+        color: white;
+        background: transparent;
+        border-bottom: 1px solid whitesmoke;
+        cursor: pointer;
+      
+        &::placeholder {
+          color: white;
+        }
+      } 
+    }
+  }
+}

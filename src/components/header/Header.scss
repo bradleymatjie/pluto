@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 30px;
+}
+
+.logo {
+  font-style: italic;
+  font-size: 20px;
+  text-shadow: 1px 2px 5px black;
+
+  
+  &::first-letter {
+    font-size: 40px;
+  }
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+  
+  nav > ul :first-child {
+    border-bottom: 2px solid orangered;
+  }
+
+  & a {
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+
+    &:hover {
+      color: orange;
+    }
+  }
+}

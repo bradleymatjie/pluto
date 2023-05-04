@@ -1,0 +1,35 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu_nav {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  gap: 50px;
+}
+
+.menu_nav li {
+  transition: .3s;
+  cursor: pointer;
+}
+
+.menu_nav li:hover {
+  border-bottom: 3px double orangered;
+}
+
+.menu_nav .new_tab {
+  border-bottom: 3px double orangered;
+}
+
+.music-container {
+  width: 75%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

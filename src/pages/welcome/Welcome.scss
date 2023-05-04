@@ -1,0 +1,54 @@
+.welcome {
+  display: flex;
+  justify-content: space-between;
+  
+  &_item {
+    margin-top: 50px;
+    padding-left: 30px;
+      
+      & h1 {
+        font-size: 40px;
+        letter-spacing: 5px;
+      }
+
+    & button {
+      margin-top: 10px;
+      width: 300px;
+      height: 60px;
+      border: none;
+      border-radius: 50px;
+      box-shadow: 1px 1px 10px 1px black;
+      transition: 1s;
+      
+      &:hover {
+        box-shadow: inset 2px 1px 5px 1px black;
+      }
+    }
+  }
+}
+
+.artists button {
+  background-color: rgb(64, 130, 192);
+  color: white;
+  cursor: pointer;
+}
+
+.discover button {
+  background-color: rgb(171, 75, 235);
+  color: white;
+  cursor: pointer;
+}
+
+.welcome_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: 2px dotted grey;
+  width: 45%;
+
+  & h2 {
+    font-size: 40px;
+    font-style: italic;
+  }
+}
